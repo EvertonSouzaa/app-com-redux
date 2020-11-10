@@ -1,2 +1,2 @@
-# app-com-redux
-criando app de teste utilizando react-redux
+# app-series
+app utilizado para salvar suas séries favoritas.

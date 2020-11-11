@@ -1,2 +1,2 @@
-# app-series
-app utilizado para salvar suas séries favoritas.
+# app-com-redux
+app criado utilizando redux para testes.

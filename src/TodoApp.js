@@ -6,10 +6,13 @@ import { Provider } from 'react-redux';
 import TodoForm from './components/TodoForm';
 import rootReducer from './reducers'
 
-import devToolsEnhancer from 'remote-redux-devtools';
+// import { devToolsEnhancer } from 'redux-devtools-extension';
 
 
-const store = createStore(rootReducer, devToolsEnhancer());
+const store = createStore(
+  rootReducer,  
+
+);
 
 export default class TodoApp extends React.Component{
   render() {

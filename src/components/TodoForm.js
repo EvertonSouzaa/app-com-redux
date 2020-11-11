@@ -17,11 +17,11 @@ import Input from './Input';
     }
 
     onChangeText(text){
-      this.setState({ text });
+      this.setState( {text} );
     }
 
     onPress(){
-      this.props.dispatchAddTodo()
+      this.props.dispatchAddTodo(this.state.text)
     }
 
 

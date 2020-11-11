@@ -33,9 +33,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "babel-preset-expo": "~8.1.0",
-    "metro-react-native-babel-preset": "^0.64.0",
-    "redux-devtools-extension": "^2.13.8",
-    "remote-redux-devtools": "^0.5.16"
+    "metro-react-native-babel-preset": "^0.64.0"
   },
   "private": true
 }
